@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>azure_app</RootNamespace>
+    <RootNamespace>azure_webapp_kaycee_vscode</RootNamespace>
   </PropertyGroup>
 
 </Project>

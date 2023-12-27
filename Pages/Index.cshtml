@@ -1,16 +1,15 @@
-﻿@page
+﻿﻿@page
 @model IndexModel
 @inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
 @{
     ViewData["Title"] = "Home page";
-    ViewData["Greeting"] = "Greetings from vsCode!";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome to Azure for .Net Developers</h1>
-    
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     @Html.Raw(JavaScriptSnippet.FullScript)
     <p>
-        We are here to learn about the difference Microsoft Azure features and .Net Core Development.
+        @ViewData["Greeting"]
     </p>
 </div>
